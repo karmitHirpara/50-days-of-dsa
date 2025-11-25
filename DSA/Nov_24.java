@@ -12,7 +12,6 @@ class Nov_24 {
         System.out.println(res);
     }
 
-
     public static List<Boolean> prefixesDivBy5(int[] a) {
         List<Boolean> list = new ArrayList<>(a.length);
         int mod = 0;
