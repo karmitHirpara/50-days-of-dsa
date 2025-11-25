@@ -6,8 +6,13 @@
 // Return the length of n. If there is no such n, return -1.
 // --------------------------------------------------------------------
 
-class Solution {
-    public int smallestRepunitDivByK(int k) {
+class Nov_24 {
+    public static void main(String[] args) {
+        int k = 3;
+        int res = smallestRepunitDivByK(k);
+        System.out.println(res);
+    }
+    public static int smallestRepunitDivByK(int k) {
         if(k%2==0 || k%5==0) return -1;
         
         int rem = 0;
