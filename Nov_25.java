@@ -6,7 +6,7 @@
 // Return the length of n. If there is no such n, return -1.
 // --------------------------------------------------------------------
 
-class Nov_24 {
+class Nov_25 {
     public static void main(String[] args) {
         int k = 3;
         int res = smallestRepunitDivByK(k);
