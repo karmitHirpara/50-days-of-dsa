@@ -1,3 +1,4 @@
+package DSA;
 // 1018 Binary Prefix Divisible By 5
 
 import java.util.ArrayList;
