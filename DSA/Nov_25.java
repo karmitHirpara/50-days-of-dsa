@@ -23,7 +23,7 @@ class Nov_25 {
         int res = smallestRepunitDivByK(k);
         System.out.println(res);
     }
-    public static int smallestRepunitDivByK(int k) {
+    private static int smallestRepunitDivByK(int k) {
         if(k%2==0 || k%5==0) return -1;
         
         int rem = 0;

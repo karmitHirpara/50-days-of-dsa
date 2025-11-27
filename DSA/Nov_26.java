@@ -11,7 +11,7 @@ public class Nov_26 {
         System.out.println("Compressed Length: " + len);
     }
 
-    public static int compress(char[] chars) {
+    private static int compress(char[] chars) {
         int write = 0;   // index to write compressed characters
         int read = 0;    // index to read original array
         int n = chars.length;
