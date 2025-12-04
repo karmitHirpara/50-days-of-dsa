@@ -22,7 +22,6 @@ public class Dec_04 {
             }else {
                 e--;
             }
-
         }
         return 0;
     }
