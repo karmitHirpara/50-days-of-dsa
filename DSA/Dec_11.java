@@ -10,12 +10,15 @@ public class Dec_11 {
         Spreadsheet spreadsheet = new Spreadsheet(3); 
         int val = spreadsheet.getValue("=5+7"); 
         System.out.println(val);
+        
         spreadsheet.setCell("A1", 10);      
         val = spreadsheet.getValue("=A1+6"); 
         System.out.println(val);
+        
         spreadsheet.setCell("B2", 15);      
         val = spreadsheet.getValue("=A1+A2");
         System.out.println(val);
+        
         spreadsheet.resetCell("A1");       
         val = spreadsheet.getValue("A1+B2");
         System.out.println(val);
