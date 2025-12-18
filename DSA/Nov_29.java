@@ -13,7 +13,6 @@ package DSA;
     }
 }
 
-
 class MyLinkedList {
 
     node head, tail;

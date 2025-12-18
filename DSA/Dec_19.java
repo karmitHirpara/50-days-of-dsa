@@ -21,5 +21,4 @@ public class Dec_19 {
         }
         return sumRight-sumLeft;
     }
-    
 }
