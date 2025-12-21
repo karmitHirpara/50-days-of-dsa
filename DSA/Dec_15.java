@@ -3,6 +3,8 @@ package DSA;
 // LeetCode 1. Two Sum
 // ````````````````````
 
+import java.util.HashMap;
+
 public class Dec_15 {
 
     public static void main(String[] args) {
