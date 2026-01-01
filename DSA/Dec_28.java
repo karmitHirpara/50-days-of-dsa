@@ -3,6 +3,8 @@ package DSA;
 // LeetCode 1351. Count Negative Numbers in a Sorted Matrix
 // `````````````````````````````````````````````````````````
 
+import java.util.Arrays;
+
 public class Dec_28 {
     public static void main(String[] args) {
         int[][] a = {{4, 3, 2, -1}, {3, 2, 1, -1}, {1, 1, -1, -2}, {-1, -1, -2, -3}};
@@ -11,7 +13,7 @@ public class Dec_28 {
     }
     
 
-    private int countNegatives_approach_1(int[][] a) {
+    private static int countNegatives_approach_1(int[][] a) {
         int c = 0 ;
         for(int []x : a){
             Arrays.sort(x);
