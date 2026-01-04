@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Jav_03 {
+public class Jan_03 {
     public static void main(String[] args) {
         String[] a = {"eat", "tea", "tan", "ate", "nat", "bat"};
         System.out.println(groupAnagrams(a));
