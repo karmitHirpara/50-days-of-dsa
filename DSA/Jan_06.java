@@ -6,15 +6,14 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 // Leetcode Problem 1387: Sort Integers by The Power Value
-// `````````````````````````
+// ````````````````````````````````````````````````````````
 
-public class Dec_31 {
+public class Jan_06 {
 
     static HashMap<Integer, Integer> map = new HashMap<>();
-
     public static void main(String[] args) {
         int lo = 12, hi = 15, k = 2;
-        System.out.println(getKth(lo, hi, k));
+        System.out.println(new Jan_06().getKth(lo, hi, k));
     }
 
     public static int getKth(int lo, int hi, int k) {
@@ -34,7 +33,6 @@ public class Dec_31 {
                         (e1, e2) -> e1,
                         LinkedHashMap::new
                 ));
-        System.out.print(map1);
         int c = k, ans = -1;
         for(int x : map1.keySet()){
             if(c-- == 0) break;
