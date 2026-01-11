@@ -8,6 +8,7 @@ selling price is assumed to be 0.
 
 Return the result table in any order.
 ============================================================ */
+
 select 
     p.product_id,
     ifnull(
